@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #ccc;
+  padding: 20px;
+  margin: 0;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #000;
+  margin:  0;
+}
+.page {
+  background: white;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 20px 50px;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10pt;
+  line-height: 1.4;
+}
+.name {   
+  margin: 10px 0 0 0;
+  font-size: 12pt;
+}
+.info, 
+.link {
+  margin: 0 0 5px 0;
+}
+h5 {
+  margin: 3px 0px;
+}
+.fi8 { 
+  font-size: 7pt;
+  font-weight: 100;
+  font-style: italic;
+  color: #1e90ff;
+}
+.f8 { 
+  font-size: 8pt;
+  font-weight: 400;
+}
+.f10 { 
+  font-size: 10pt;
+  font-weight: 600;
+}
+.sec_name { 
+  font-size: 10pt;
+  font-weight: 300;
+  color: #1e90ff;
+  margin-top: 10px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+
+
+/* h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: 700;
+} */
+/* p {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+} */
