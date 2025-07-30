@@ -193,7 +193,7 @@
   .testimonial-author {
     font-size: 20px;
   }
-  #xs-br {
+  .xs-br {
     display: block;
   }
   /* FOOTER  */
@@ -358,7 +358,7 @@
     font-size: 36px;
   }
   /* testimonial */
-  #xs-br {
+  .xs-br {
     display: none;
   }
   .testimonial__text {
