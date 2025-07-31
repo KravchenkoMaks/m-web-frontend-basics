@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>DI-Gi</title>
+  <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
   <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,26 +28,45 @@
       <img class="header__logo" src="images/icons/main_logo.svg" alt="logo">
       <button class="header__btn"><i class="fa fa-bars"></i></button>
     </div>
-    <div class="intro">
-      <h1>
-        МИСЛИ<br>ГЛОБАЛЬНО
-      </h1>
-      <p>
-        Di Gi — це діджитал агенція повного циклу, спрямована на найкращий<br>
-        результат наших клієнтів в маркетингу, продажах та управленні
-      </p>
-      <hr>
-      <button class="intro__btn" onclick="location.href='#';">ДЕТАЛЬНІШЕ</button>
-      <div class="intro__pagination">
-        <span class="dot"></span>
-        <span class="dot dot__active"></span>
-        <span class="dot"></span>
-      </div>
-      <div class="swipe-arrows">
-        <i class="fa-solid fa-chevron-left"></i>
-        <i class="fa-solid fa-chevron-right"></i>
+
+       <div class="intro">
+      <div class="owl-carousel">
+        <div class="item">
+          <h1>
+            МИСЛИ<br>ГЛОБАЛЬНО
+          </h1>
+          <p>
+            Di Gi — це діджитал агенція повного циклу, спрямована на найкращий<br>
+            результат наших клієнтів в маркетингу, продажах та управленні
+          </p>
+          <hr />
+          <button class="intro__btn" onclick="location.href='#';">ДЕТАЛЬНІШЕ</button>
+        </div>
+        <div class="item">
+          <h1>
+            МИСЛИ<br>ГЛОБАЛЬНО
+          </h1>
+          <p>
+            Di Gi — це діджитал агенція повного циклу, спрямована на найкращий<br>
+            результат наших клієнтів в маркетингу, продажах та управленні
+          </p>
+          <hr />
+          <button class="intro__btn" onclick="location.href='#';">ДЕТАЛЬНІШЕ</button>
+        </div>
+        <div class="item">
+          <h1>
+            МИСЛИ<br>ГЛОБАЛЬНО
+          </h1>
+          <p>
+            Di Gi — це діджитал агенція повного циклу, спрямована на найкращий<br>
+            результат наших клієнтів в маркетингу, продажах та управленні
+          </p>
+          <hr />
+          <button class="intro__btn" onclick="location.href='#';">ДЕТАЛЬНІШЕ</button>
+        </div>
       </div>
     </div>
+
     <div class="promo">
       <div class="promo__text">
         <h1>Ви полюбите нас з<br class="br__xxs"> першої зустрічі!</h1>
@@ -351,6 +372,24 @@
       <img src="images/icons/footer/up.svg" alt="">
     </div>
   </div>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="owlcarousel/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: true,
+        dots: true,
+        items: 1,
+        navText: [
+          "<i class='fa-solid fa-chevron-left'></i>",
+          "<i class='fa-solid fa-chevron-right'></i>"
+        ]
+      });
+    });
+  </script>
 
 </body>
 
