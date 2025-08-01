@@ -12,8 +12,8 @@
 
   --services-item-width: 87vw;
   --services-item-height: calc(1.12 * var(--services-item-width));
-  --grid__line-color: rgba(128, 128, 128, 0.6);
-
+  --grid__line-color: #F9F6E5;
+  
   --portfolio__picture-height: 78.125vw;
   --portfolio__picture-width: 87.5vw;
   --portfolio__title-height: 37.5vw;
