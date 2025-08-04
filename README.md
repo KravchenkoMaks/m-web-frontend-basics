@@ -1,2 +1,1 @@
-# m-web-frontend-basics
-Збірник завдань першого рівня по курсу web-frontend
+## A collection of first-level tasks for a web front-end course
