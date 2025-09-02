@@ -1,0 +1,52 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.datatable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datatable th,
+.datatable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.datatable tr:hover {
+    background-color: #ddd;
+}
+
+.datatable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #888;
+    color: white;
+}
+
+button.delete-btn{
+    background-color: red;
+}
+button.update-btn{
+    background-color: yellow;
+}
+
+input.error,
+select.error {
+    border: 1px solid red;
+    background-color: #ffe6e6;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly
+}
+
+
