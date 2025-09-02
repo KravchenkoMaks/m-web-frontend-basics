@@ -1,4 +1,4 @@
-## Task 1.4.1  Delete rows from the table.
+## Task 1.4.2  Delete rows from the table.
 #### When rendering the table, the id is placed in data-id and then taken from the button attributes when clicked.
 
 #### Link to table: 
