@@ -1,4 +1,4 @@
-## Task 1.4.1  Delete rows from the table.
+## Task 1.4.2  Delete rows from the table.
 #### When visualising the table, a listener is attached to the delete button for each row in the table.
 
 #### Link to table: 
