@@ -1,0 +1,32 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+.datatable {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datatable th,
+.datatable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.datatable tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.datatable tr:hover {
+    background-color: #ddd;
+}
+
+.datatable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #888;
+    color: white;
+}
